@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   width="73px"
+   height="28px"
+   viewBox="0 0 73 28"
+   version="1.1"
+   id="SVGRoot">
+  <defs
+     id="defs2028">
+    <rect
+       x="66.951019"
+       y="180.67419"
+       width="76.375473"
+       height="51.239994"
+       id="rect875" />
+    <rect
+       x="66.951019"
+       y="180.67419"
+       width="76.375473"
+       height="51.239994"
+       id="rect1994" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="1.9064946"
+     inkscape:cx="43.773998"
+     inkscape:zoom="11.2"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2031">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Warstwa 1">
+    <g
+       id="layer2"
+       style="display:inline"
+       transform="matrix(0.63051093,0,0,0.63051093,-25.907898,-40.295491)">
+      <ellipse
+         style="fill:#804823;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path852"
+         cx="99.405502"
+         cy="86.114441"
+         rx="56.040501"
+         ry="21.448999" />
+      <ellipse
+         ry="18.487883"
+         rx="52.371086"
+         cy="86.169769"
+         cx="99.39502"
+         id="ellipse862"
+         style="fill:#804823;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:1.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+      <text
+         xml:space="preserve"
+         id="text873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:0;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect875);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="matrix(1.1954312,0,0,1.1954312,-16.245384,-130.04407)"><tspan
+           x="66.951172"
+           y="189.23189"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.1497px;font-family:'Ford Script';-inkscape-font-specification:'Ford Script'">F</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.0839px;font-family:'Ford Script';-inkscape-font-specification:'Ford Script'">ord</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
