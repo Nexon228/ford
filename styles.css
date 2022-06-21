@@ -69,6 +69,55 @@ body{
     text-align: center;    
 }
 
+
+/*modele*/
+
+
+.modele{
+    margin-top: 200px;
+    height: 1000px;
+}
+
+.modele-name{
+    margin: auto;
+    max-width: 400px;
+    font-size: 46px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.modele-content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.recordes{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cars{
+    background-color: brown;
+    width: 240px;
+    height: 150px;
+    margin: 10px;
+}
+
+
 @media only screen and (max-width: 750px) {
    .logo-shrink{
     display: block;
@@ -83,5 +132,20 @@ body{
 
    .big-logo>p{
     font-size: 30px;    
+}
+
+.modele-content{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.types{
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.types>div{
+    padding: 10px;
 }
   }
