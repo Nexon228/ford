@@ -1,3 +1,87 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
+    margin: 0;
+
 }
+
+/*navbar*/
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    user-select: none;
+}
+
+.navbar-conteiner{
+    width: 100%;
+    background-color:rgb(247, 246, 246);
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    padding: 5px 10px 15px 10px !important;
+}
+
+.logo:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.logo-shrink{
+    display: none;
+    margin:auto;
+}
+
+.navbar>div{
+    padding: 10px;
+    min-width: 100px;
+    height: 20px;
+}
+
+.navbar>div:hover{
+    background-color: beige;
+}
+
+
+/*big-logo*/
+
+
+.big-logo{
+    margin-top: 100px !important;
+    margin: auto;
+    width: 80%;
+    user-select: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.big-logo>img{
+    width: 100%;
+    height: auto;
+}
+
+.big-logo>p{
+    font-size: 46px;
+    text-align: center;    
+}
+
+@media only screen and (max-width: 750px) {
+   .logo-shrink{
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 10px !important;
+   }
+
+   .logo-noshrink{
+    display: none;
+   }
+
+   .big-logo>p{
+    font-size: 30px;    
+}
+  }
