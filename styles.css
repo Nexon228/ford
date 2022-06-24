@@ -2,8 +2,12 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(32, 32, 32);
     margin: 0;
-
+    user-select: none;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 /*navbar*/
 
@@ -18,10 +22,17 @@ body{
     user-select: none;
 }
 
+a{
+    color:black;
+    text-decoration: none;
+}
+
 .navbar-conteiner{
     width: 100%;
     background-color:rgb(247, 246, 246);
     border-bottom: 1px solid black;
+    position: sticky;
+    top:0;
 }
 
 .logo{
@@ -29,7 +40,7 @@ body{
 }
 
 .logo:hover{
-    background-color: rgb(255, 255, 255) !important;
+    background-color:rgb(247, 246, 246) !important;
 }
 
 .logo-shrink{
@@ -44,7 +55,8 @@ body{
 }
 
 .navbar>div:hover{
-    background-color: beige;
+    background-color: rgb(238, 238, 235);
+    cursor: pointer;
 }
 
 
@@ -74,7 +86,7 @@ body{
 
 
 .modele{
-    margin-top: 200px;
+    margin-top: 150px;
     user-select: none;
 }
 
@@ -82,7 +94,7 @@ body{
     margin: auto;
     max-width: 400px;
     font-size: 46px;
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
     text-align: center;
     font-weight: 600;
 }
@@ -125,10 +137,10 @@ body{
     margin: auto;
     max-width: 400px;
     font-size: 46px;
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
     text-align: center;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .serwis-content{
@@ -161,14 +173,90 @@ body{
     margin: auto;
     max-width: 400px;
     font-size: 46px;
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
     text-align: center;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .kontakt-content{
     display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.kontakt-text{
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.kontakt-numer{
+    max-width: 400px;
+    margin-top: 100px;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.kontakt-numer>p{
+    padding: 10px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.kontakt-numer>p>img{
+    width: 27px;
+    height: 27px;
+    padding: 0px 3px 0px 0px;
+    display: inline-block;
+}
+
+ol>li{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ul>li{
+    font-size: 16px;
+}
+
+.foot{
+    background-color: black;
+}
+
+.foot-name{
+    color: white;
+    float: right;
+    margin-right: 20%;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.foot-name>div{
+    padding-left: 10px;
+    float:left;
+}
+
+
+.foot-name>div>img{
+    height: 30px ;
+    width: auto;
+    padding: 5px 5px 0px 5px;
+}
+
+.foot-bot{
+    display: flex;
+    color:white;
+    margin-top: 50px;
+}
+
+.foot-bot>div{
+    padding: 10px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -214,4 +302,19 @@ body{
 .serwis-input{
     margin-top: 20px;
 }
+
+.kontakt-content{
+    flex-direction: column;
+}
+
+.foot-name{
+    margin: auto;
+    float: none;
+}
+
+.foot-name>div{
+    float: left;
+}
+
+
   }

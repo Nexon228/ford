@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <div class="container">
@@ -14,12 +15,12 @@
         <div class="navbar-conteiner">
             <div class="logo-shrink logo"><img src="img/logo.svg"></div>
             <div class="navbar">
-                <div class="logo logo-noshrink navbar-links"><img src="img/logo.svg"></div>
-                <div class="navbar-links">Modele</div>
+                <div class="logo logo-noshrink navbar-links"><a href="#"><img src="img/logo.svg"></a></div>
+                <div class="navbar-links"><a href="#modele-scroll">Modele</a></div>
                 <div class="navbar-links">Finansowanie</div>
-                <div class="navbar-links">Serwis</div>
-                <div class="navbar-links">Dealerzy</div>
-                <div class="navbar-links">Kontakt</div>
+                <div class="navbar-links"><a href="#serwis-scroll">Serwis</a></div>
+                <div class="navbar-links"><a href="#dealerzy-scroll">Dealerzy</a></div>
+                <div class="navbar-links"><a href="#kontakt-scroll">Kontakt</a></div>
             </div>
         </div>
 
@@ -30,7 +31,7 @@
         </div>
 
 
-        <div class="modele">
+        <div id="modele-scroll"class="modele">
 
             <div class="modele-name">Nasze modele</div>
 
@@ -62,7 +63,7 @@
         </div>
 
 
-        <div class="serwis">
+        <div id="serwis-scroll"class="serwis">
             <div class="serwis-name">Serwis</div>
             <div class="serwis-content">
                 <div class="serwis-text">Znajdź najbliższy <br>autoryzowany serwis Ford</div>
@@ -74,7 +75,7 @@
         </div>
 
 
-        <div class="serwis">
+        <div id="dealerzy-scroll" class="serwis">
             <div class="serwis-name">Dealerzy</div>
             <div class="serwis-content">
                 <div class="serwis-text">Znajdź najbliższego <br>autoryzowany dealera Ford</div>
@@ -86,14 +87,53 @@
         </div>
 
 
-        <div class="kontakt">
+        <div id="kontakt-scroll" class="kontakt">
             <div class="kontakt-name">Kontakt</div>
-            <div clas="kontakt-content">
-                <div class="ford-pomoc">FORD POMOC</div>
-                <div class="ford-infolinia">infolinia</div>
-                <div class="ford-email">ford@email.com</div>
+            <div class="kontakt-content">
+                <div class="kontakt-text">
+                <ol>
+                    <li>
+                        Ford Pomoc (24/7 dni w tygodniu)
+                    </li>
+                    <ul>
+                       <li> pomoc drogowa poczynając od pomocy w przypadku zatrzaśnięcia 
+                            kluczyków w aucie czy wyładowania akumulatora, naprawy pojazdu w 
+                             trasie, udostepnienie samochodu zastępczego 
+                        </li>
+                        <li>pomoc w razie wypadku</li>
+                        <li>zgłoszenie szkody komunikacyjnej w Centrum Likwidacji Szkód</li>
+                    </ul>
+                        <li>Infolinia (pon.-pt. 8:00-20:00)</li>
+                    <ul>
+                        <li> informacje na temat aktualnej oferty i promocji</li>
+                        <li>adresy punktów dealerskich</li>
+                    </ul>
+                    <li>Dział Obsługi klienta</li>
+                    <ul>
+                        <li>e-mail: kontakty@ford.com</li>
+                    </ul>
+                    <li>Call Center celem umówienia do dealera (pon.-pt.: 8.00-18.00)</li>
+                    <ul>
+                        <li>na przegląd serwisowy</li>
+                        <li>na jazdę próbną</li>
+                    </ul>
+                </ol>
+            </div>
+
+            <div class="kontakt-numer"><p><img src="img/telefon.svg"><span>+48 123 456 789</span></p></div>
+
             </div>
         </div>
+
+        <div class="foot">
+            <div class="foot-name"><div>Dołącz do nas </div><div class="foot-img"><img src="img/fb.png"><img src="img/yt.png"><img src="img/ig.png"></div></div>
+            <div style="clear:both"></div>
+            <div class="foot-bot">
+                <div>© 2022 Ford Motor Company</div>
+                <div>Polityka prywatności i Warunki korzystania</div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
